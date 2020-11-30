@@ -6,3 +6,6 @@ subreddit = reddit.subreddit('python')
 hot = subreddit.hot(limit=5)
 for submission in hot:
     print(submission.title)
+    print(submission.ups)
+    print(submission.downs)
+    print(submission.visited)
