@@ -5,4 +5,4 @@ reddit = praw.Reddit(client_id='o-0moazmFjjWNA', client_secret = 'jap7ZhKDNpKMwx
 subreddit = reddit.subreddit('python')
 hot = subreddit.hot(limit=5)
 for submission in hot:
-    print(submission)
+    print(submission.title)
