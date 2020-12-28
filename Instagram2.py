@@ -1,6 +1,6 @@
 import praw
 
-reddit = praw.Reddit(client_id='1234567890', client_secret = 'qAWESRDTFGYHUJKL, username ='ASZDXFCGVHBJNKM,L', password ='###########', user_agent='007')
+reddit = praw.Reddit(client_id='1234567890', client_secret = 'qAWESRDTFGYHUJKL', username ='ASZDXFCGVHBJNKM,L', password ='###########', user_agent='007')
 
 subreddit = reddit.subreddit('ubco')
 hot = subreddit.hot(limit=3)
